@@ -13,10 +13,10 @@ function Createuser() {
   const dispatch = useDispatch();
 
   const[users, setUsers] = useState({
-       name: '',
-    email: '',
-    Age: '',
-    gender: ''
+        name: '',
+        email: '',
+        Age: '',
+        gender: ''
   });
 
   const getUserData = (e) => {
